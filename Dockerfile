@@ -24,5 +24,4 @@ EXPOSE 8080
 # Set environment variable for Flask
 ENV FLASK_APP=app.py
 
-# Run the app with gunicorn on port 8080 (recommended for production)
 CMD ["python", "app.py"]
