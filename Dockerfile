@@ -25,4 +25,4 @@ EXPOSE 8080
 ENV FLASK_APP=app.py
 
 # Run the app with gunicorn on port 8080 (recommended for production)
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:app"]
+CMD ["python", "app.py"]
