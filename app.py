@@ -12,6 +12,7 @@ from sklearn.datasets import load_iris
 app = Flask(__name__)
 
 #Upload folder configuration
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 #Creates a secret key for the session
