@@ -7,8 +7,15 @@ AI Pipeline:
 - Scales Data
 - Runs a Logistic Regression Model
 - Displays the Classification Report
+- Has Retry Mechanisms in case of an error
 
-If the deployment does not work, please download this repo, and run app.py locally.
+How to Run this code locally
+- Clone this repo
+- Install requirements.txt
+- run app.py
+
+Alternatively, if you would like to run the application, please use this Streamlit link: <LINK>
+* Note that this doesn't include some features
 
 # Complexity
 - File Upload with Validation
@@ -17,6 +24,7 @@ If the deployment does not work, please download this repo, and run app.py local
 - Preprocessing and Splitting
 - Model Training
 - Evaluation Metrics
+- Retry Mechanism
 
 # Big O
 - File Upload: O(1)
