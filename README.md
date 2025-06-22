@@ -14,7 +14,7 @@ How to Run this code locally
 - Install requirements.txt
 - run app.py
 
-Alternatively, if you would like to run the application, please use this Streamlit link: <LINK>
+Alternatively, if you would like to run the application without having to take the steps to run locally, please use this Streamlit link: https://basic-ai-pipeline.streamlit.app/ 
 * Note that this doesn't include some features as with the Flask application
 
 # Architecture
