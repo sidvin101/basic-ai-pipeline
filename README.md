@@ -17,7 +17,7 @@ How to Run this code locally
 Alternatively, if you would like to run the application, please use this Streamlit link: <LINK>
 * Note that this doesn't include some features
 
-# Complexity and Architecture
+# Architecture
 - File Upload with Validation
 - Handles Sessions with Flask
 - Web UI for Feature Selection and Parameter tuning
