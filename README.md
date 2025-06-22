@@ -17,7 +17,21 @@ How to Run this code locally
 Alternatively, if you would like to run the application without having to take the steps to run locally, please use this Streamlit link: https://basic-ai-pipeline.streamlit.app/ 
 * Note that this doesn't include some features as with the Flask application
 
-# Architecture
+Architecture
+```
+basic-ai-pipeline
+|- /templates
+|  - index.html //The UI for file uploading
+|  - select_columns.html // The UI for column and hyperparameter selection
+|  - results // The UI to display the Logistic Regression results
+|- /uploads // A temporary folder to store the file uploads
+|- app.py // The main Flask app
+|- streamlit_app.py // The main Streamlit app
+|- requirements.txt // The list of requirementrs
+
+```
+
+# Flow
 - File Upload with Validation
 - Handles Sessions with Flask
 - Web UI for Feature Selection and Parameter tuning
