@@ -15,7 +15,7 @@ How to Run this code locally
 - run app.py
 
 Alternatively, if you would like to run the application, please use this Streamlit link: <LINK>
-* Note that this doesn't include some features
+* Note that this doesn't include some features as with the Flask application
 
 # Architecture
 - File Upload with Validation
